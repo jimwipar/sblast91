@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+.box{
+    width: 100px;
+    height: 25px;
+}
+header{
+    background-color: rgb(179, 179, 45);
+    height:50px;
+}
+table{
+    width:500px
+}
+.stages{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left:150px;
+}
+.stage{
+    width:500px;
+    margin:50px;
+    
+}
+.stage:hover{
+    opacity:0.5;
+}
